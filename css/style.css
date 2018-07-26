@@ -118,6 +118,9 @@ body{
 	width: 50%;
 	float: right;
 	padding: 15px;
+	padding-top: 20px;
+	margin-top: 15px;
+	border: 1px solid red;
 }
 #news > aside > img{ width: 100%;}
 #news > aside > img:first-child{
@@ -142,8 +145,8 @@ body{
 }
 
 
-.bx-viewport{
-
+.bx-wrapper, .bx-viewport{
+	border: none!important;
 }
 
 
