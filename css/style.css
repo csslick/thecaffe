@@ -153,6 +153,8 @@ body{
 	color: #999;
 }
 
+
+
 #foundation{
 	position: relative;
 	width: 1200px;
@@ -214,6 +216,22 @@ body{
 #foundation .item_list .txt{
 	font-size: 1em;
 }
+
+/* 창업문의, 가맹안내...가먕점 현황 */
+#foundation .inform_list > li > a{
+	display: block;
+	width: 186.66px;
+	height: 175px;
+	border: 2px solid #bf2428;
+	text-align: center;
+}
+#foundation .inform_list > li > a > .fas{
+	display: block;
+	font-size: 64px;
+	color: #bf2428;
+	margin: 40px 0 8px 0;
+}
+
 
 
 /** 이미지 박스 hover 효과 **/
