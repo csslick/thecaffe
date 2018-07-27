@@ -27,18 +27,18 @@ li{ list-style-type: none;}
 body{
 	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 13px;
-	line-height: 20px;
+/*	line-height: 20px;*/
 	color: #666;
 }
 
 #main_header{
 	position: relative;
-	width: 1200px;
+	width: 1200px; 
 	z-index: 999!important;
 /*	background: #ccc;*/
 	margin: 0 auto;
 	text-align: center;
-
+	
 }
 #main_header > h1{
 	padding: 30px 0;
@@ -89,27 +89,23 @@ body{
 	width: 1200px;
 	margin: 0 auto;
 	overflow: hidden;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 /* 뉴스 섹션 */
 #news{
+	position: relative;
 	width: 1200px;
 	margin: auto;
 	text-align: center;
+	overflow: hidden;
 }
-#news > h2,
+#news > h2, 
 #foundation > h2,
 #sns_gallery > h2{
 	font-size: 36px;
 	margin-bottom: 40px;
 	color: #bf2428;
-}
-#news{
-	border: 1px solid green;
-	padding-top: 10px;
-	overflow: hidden;
-	margin-bottom: 60px;
 }
 #news > h2 > span{
 	font-size: 24px;
@@ -124,9 +120,10 @@ body{
 	width: 50%;
 	float: right;
 	padding: 15px;
-	padding-top: 40px;
+	padding-top: 20px;
 	margin-top: 15px;
-	/* border: 1px solid red; */
+	border: 1px solid red;
+	padding-top: 50px;
 }
 #news > aside > img{ width: 100%;}
 #news > aside > img:first-child{
@@ -137,7 +134,7 @@ body{
 }
 #news .line{ margin-bottom: 30px;}
 #news .news_list > ul{
-	margin-bottom: 60px;
+	margin-bottom: 50px;
 /*	border: 1px solid red;*/
 	padding: 0px 20px;
 	letter-spacing: 1px;
@@ -156,7 +153,61 @@ body{
 	color: #999;
 }
 
+#foundation{
+	position: relative;
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 60px;
+	overflow: hidden;
+	border: 1px solid red;
+	padding-top: 20px;
+}
+#foundation .sub_text{
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+#foundation article{ text-align: left;}
+#foundation article h3{
+	font-family: Arial;
+	font-size: 4em;
+	font-weight: bold;
+	margin: 15px 0 5px 0;
+}
+#foundation article span{
+	font-size: 28px;
+}
+#foundation article p{
+	line-height: 1.8;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+#foundation .item_list{
+	width: 100%;
+	overflow: hidden;
+	/* 여백 1.25% = 15px, 
+		1/4 box width =  24.06% */
+}
+#foundation .item_list > li{
+	width: 288.75px;
+	width: 24.06%;
+/*	border: 1px solid red;*/
+	float: left;	
+	margin-right: 1.25%;
+}
+#foundation .item_list > li:last-child{
+	margin-right: 0;
+}
+
+
+
+
 
 .bx-wrapper, .bx-viewport{
 	border: none!important;
 }
+
+
+
+
