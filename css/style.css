@@ -86,10 +86,11 @@ body{
 
 /* 메인 배너 */
 #main_banner{
-	width: 1200px;
+	min-width: 1200px;
+	max-width: 1920px;
 	margin: 0 auto;
 	overflow: hidden;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 /* 뉴스 섹션 */
