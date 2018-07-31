@@ -281,11 +281,20 @@ body{
 	width: 240px;
 }
 
-
-
-
-
-
+#main_footer{
+	background: #bf2428;
+	text-align: center;
+	padding: 100px 0;
+}
+#main_footer > h1{
+	margin-bottom: 5px;
+}
+#main_footer p, #main_footer address{
+	color: #fff;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 1.6em;
+}
 
 
 
