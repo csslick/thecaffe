@@ -122,7 +122,7 @@ body{
 	padding: 15px;
 	padding-top: 20px;
 	margin-top: 15px;
-	border: 1px solid red;
+/* 	border: 1px solid red; */
 	padding-top: 50px;
 }
 #news > aside > img{ width: 100%;}
@@ -162,7 +162,7 @@ body{
 	text-align: center;
 	margin-top: 60px;
 	overflow: hidden;
-	border: 1px solid red;
+/* 	border: 1px solid red; */
 	padding-top: 20px;
 }
 #foundation .sub_text{
