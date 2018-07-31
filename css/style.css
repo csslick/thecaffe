@@ -258,6 +258,44 @@ body{
 }
 
 
+/* SNS 갤러리 영역 */
+#sns_gallery{
+	text-align: center;
+	margin-top: 80px;
+	background: #f2f2f4;
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+#sns_gallery #sns_photo{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#sns_photo > li{
+	/* 이미지 목록 규격: 가로5개, 여백 10px */
+	float: left;
+	height: 240px;
+}
+#sns_photo > li img{
+	display: block;
+	width: 240px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
