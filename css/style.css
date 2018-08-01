@@ -4,6 +4,9 @@
 	main color: #35302d
 	sub color: #bf2428
 */
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 *{
 	margin: 0;
 	padding: 0;
