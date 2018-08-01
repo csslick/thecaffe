@@ -34,6 +34,7 @@ body{
 #main_header{
 	position: relative;
 	width: 1200px; 
+	height: 163px;
 	z-index: 999!important;
 /*	background: #ccc;*/
 	margin: 0 auto;
