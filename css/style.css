@@ -261,6 +261,7 @@ body{
 
 /* SNS 갤러리 영역 */
 #sns_gallery{
+	width: 100%;
 	text-align: center;
 	margin-top: 80px;
 	background: #f2f2f4;
@@ -283,6 +284,7 @@ body{
 }
 
 #main_footer{
+	width: 100%;
 	background: #bf2428;
 	text-align: center;
 	padding: 100px 0;
